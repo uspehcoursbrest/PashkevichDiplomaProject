@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
 }
@@ -22,3 +23,401 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.fonHeader {
+    width: 1920px;
+    height: 100px;
+    background-color: #263441;
+}
+
+.contact {
+    font-size: 14px;
+    line-height: 36px;
+    color: #66aaf5;
+}
+
+.time {
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.tit {
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.logo span:nth-child(1) {
+    font-size: 30px;
+    line-height: 90px;
+    color: #ffffff;
+}
+
+.logo span:nth-child(2) {
+    font-size: 70px;
+    line-height: 90px;
+    color: #ffffff;
+}
+
+.logo span:nth-child(3) {
+    font-size: 70px;
+    line-height: 90px;
+    color: #ffffff;
+}
+
+.menuLink li a {
+    font-size: 15px;
+    line-height: 30px;
+    color: #263441;
+    text-decoration: none;
+}
+
+.btnOne {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.titleHFour {
+    font-size: 17px;
+    line-height: 70px;
+    color: #263441;
+}
+
+.titleHOne {
+    font-size: 50px;
+    line-height: 70px;
+    color: #263441;
+}
+
+.textP {
+    font-size: 17px;
+    line-height: 30px;
+    color: #263441;
+}
+
+.addressUnd {
+    font-size: 15px;
+    line-height: 24px;
+    color: #589ae3;
+}
+
+.under span:nth-child(2) {
+    font-size: 15px;
+    line-height: 24px;
+    color: #263441;
+}
+
+.under span:nth-child(3) {
+    font-size: 15px;
+    line-height: 24px;
+    color: #263441;
+}
+
+.licUnd {
+    font-size: 15px;
+    line-height: 24px;
+    color: #589ae3;
+}
+
+.under span:nth-child(5) {
+    font-size: 15px;
+    line-height: 24px;
+    color: #263441;
+}
+
+.medText {
+    font-size: 17px;
+    line-height: 70px;
+    color: #ffffff;
+}
+
+.medOur {
+    font-size: 50px;
+    line-height: 70px;
+    color: #ffffff;
+}
+
+.p {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.statistic {
+    font-size: 17px;
+    line-height: 100px;
+    color: #ffffff;
+}
+
+.statistic span:nth-child(2) {
+    font-size: 50px;
+    line-height: 100px;
+    color: #263441;
+}
+
+.statistic span:nth-child(4) {
+    font-size: 50px;
+    line-height: 100px;
+    color: #263441;
+}
+
+.statistic span:nth-child(6) {
+    font-size: 50px;
+    line-height: 100px;
+    color: #263441;
+}
+
+.report span:nth-child(1) {
+    font-size: 17px;
+    line-height: 30px;
+    color: #263441;
+}
+
+.report span:nth-child(4) {
+    font-size: 17px;
+    line-height: 30px;
+    color: #263441;
+}
+
+.report span:nth-child(7) {
+    font-size: 17px;
+    line-height: 30px;
+    color: #263441;
+}
+
+.report span:nth-child(10) {
+    font-size: 17px;
+    line-height: 30px;
+    color: #263441;
+}
+
+.report {
+    font-size: 17px;
+    line-height: 36px;
+    color: #263441;
+}
+
+.tHThree {
+    font-size: 17px;
+    line-height: 70px;
+    color: #263441;
+}
+
+.tHOnes {
+    font-size: 36px;
+    line-height: 50px;
+    color: #263441;
+}
+
+.priceOne {
+    font-size: 70px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.pricesOne {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.pricesTwo {
+    font-size: 36px;
+    line-height: 54px;
+    color: #ffffff;
+}
+
+.price span:nth-child(1) {
+    font-size: 15px;
+    line-height: 50px;
+    color: #263441;
+}
+
+.price span:nth-child(2) {
+    font-size: 15px;
+    line-height: 50px;
+    color: #263441;
+}
+
+.price span:nth-child(3) {
+    font-size: 15px;
+    line-height: 50px;
+    color: #263441;
+}
+
+.price span:nth-child(4) {
+    font-size: 15px;
+    line-height: 50px;
+    color: #263441;
+}
+
+.butInv {
+    font-size: 17px;
+    line-height: 30px;
+    color: #2173ce;
+}
+
+.pricesA {
+    font-size: 70px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.pricesAa {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.pricesAaa {
+    font-size: 36px;
+    line-height: 54px;
+    color: #ffffff;
+}
+
+.priceA span:nth-child(1) {
+    font-size: 15px;
+    line-height: 50px;
+    color: #263441;
+}
+
+.priceA span:nth-child(2) {
+    font-size: 15px;
+    line-height: 50px;
+    color: #263441;
+}
+.priceA span:nth-child(3) {
+    font-size: 15px;
+    line-height: 50px;
+    color: #263441;
+}
+.priceA span:nth-child(4) {
+    font-size: 15px;
+    line-height: 50px;
+    color: #263441;
+}
+
+.butInvA {
+    font-size: 17px;
+    line-height: 30px;
+    color: #2173ce;
+}
+
+.pricesB {
+    font-size: 70px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.pricesBb {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.pricesBbb {
+    font-size: 36px;
+    line-height: 54px;
+    color: #ffffff;
+}
+
+.priceB span:nth-child(1) {
+    font-size: 15px;
+    line-height: 50px;
+    color: #263441;
+}
+
+.priceB span:nth-child(2) {
+    font-size: 15px;
+    line-height: 50px;
+    color: #263441;
+}
+
+.priceB span:nth-child(3) {
+    font-size: 15px;
+    line-height: 50px;
+    color: #263441;
+}
+
+.priceB span:nth-child(4) {
+    font-size: 15px;
+    line-height: 50px;
+    color: #263441;
+}
+
+.butInvB {
+    font-size: 17px;
+    line-height: 30px;
+    color: #2173ce;
+}
+
+.titleTl {
+    font-size: 17px;
+    line-height: 90px;
+    color: #ffffff;
+}
+
+.banner h1:nth-child(1) {
+    font-size: 70px;
+    line-height: 70px;
+    color: #ffffff;
+}
+
+.banner h1:nth-child(2) {
+    font-size: 70px;
+    line-height: 70px;
+    color: #ffffff;
+}
+
+.pBan {
+    font-size: 17px;
+    line-height: 90px;
+    color: #ffffff;
+}
+
+.pBann {
+    font-size: 70px;
+    line-height: 30px;
+    color: #61acff;
+}
+
+.comments p:nth-child(1) {
+    font-size: 17px;
+    line-height: 30px;
+    color: #778b9d;
+}
+
+.comments p:nth-child(2) {
+    font-size: 17px;
+    line-height: 30px;
+    color: #778b9d;
+}
+
+=======
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Open Sans " ;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container {
+    width: 1010px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
