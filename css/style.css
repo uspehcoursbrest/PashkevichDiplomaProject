@@ -23,9 +23,15 @@ ul {
     padding: 0 15px;
 }
 
+.clear::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 .fonHeader {
     width: 1920px;
-    height: 100px;
+    height: 50px;
     background-color: #263441;
 }
 
@@ -33,6 +39,22 @@ ul {
     font-size: 14px;
     line-height: 36px;
     color: #66aaf5;
+}
+
+.fonHeader {
+    display: inline-block;
+}
+
+.emails {
+    margin-right: 80px;
+}
+
+.times {
+    margin-right: 80px;
+}
+
+.tit {
+    margin-right: 80px;
 }
 
 .time {
@@ -45,6 +67,28 @@ ul {
     font-size: 15px;
     line-height: 30px;
     color: #ffffff;
+}
+
+.menu li {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.logo {
+    width: 1920px;
+    line-height: 670px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    margin-left: 45px;
 }
 
 .logo span:nth-child(1) {
@@ -99,24 +143,28 @@ ul {
 .addressUnd {
     font-size: 15px;
     line-height: 24px;
+    display: block;
     color: #589ae3;
 }
 
 .under span:nth-child(2) {
     font-size: 15px;
     line-height: 24px;
+    display: block;
     color: #263441;
 }
 
 .under span:nth-child(3) {
     font-size: 15px;
     line-height: 24px;
+    display: block;
     color: #263441;
 }
 
 .licUnd {
     font-size: 15px;
     line-height: 24px;
+    display: block;
     color: #589ae3;
 }
 
