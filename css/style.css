@@ -216,6 +216,46 @@ ul {
     color: #263441;
 }
 
+.report {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.report p {
+    font-size: 17px;
+    line-height: 36px;
+    color: #263441;
+}
+
+.report .repOne span[class*="icon"] {
+    display: block;
+    position: absolute;
+    width: 25%;
+    top:-47px;
+}
+
+.report .repTwo span[class*="icon"] {
+    display: block;
+    position: absolute;
+    width: 25%;
+    float: left;
+}
+
+.report .repThree span[class*="icon"] {
+    display: block;
+    position: absolute;
+    width: 25%;
+    float: left;
+}
+
+.report .repFour span[class*="icon"] {
+    display: block;
+    position: absolute;
+    width: 25%;
+    float: left;
+}
+
 .report span:nth-child(1) {
     font-size: 17px;
     line-height: 30px;
