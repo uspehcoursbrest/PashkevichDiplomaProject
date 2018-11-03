@@ -218,72 +218,43 @@ ul {
 
 .report {
     position: relative;
-    width: 100%;
-    float: left;
 }
 
 .report p {
+    display: block;
     font-size: 17px;
     line-height: 36px;
     color: #263441;
+    text-align: center;
 }
 
-.report .repOne span[class*="icon"] {
+.report .repOne img {
     display: block;
-    position: absolute;
-    width: 25%;
-    top:-47px;
+    margin: 0 auto;
 }
 
-.report .repTwo span[class*="icon"] {
+.report .repTwo img{
     display: block;
-    position: absolute;
-    width: 25%;
-    float: left;
+    margin: 0 auto;
 }
 
-.report .repThree span[class*="icon"] {
+.report .repThree img{
     display: block;
-    position: absolute;
-    width: 25%;
-    float: left;
+    margin: 0 auto;
 }
 
-.report .repFour span[class*="icon"] {
+.report .repFour img{
     display: block;
-    position: absolute;
-    width: 25%;
-    float: left;
+    margin: 0 auto;
 }
 
-.report span:nth-child(1) {
+.report span {
     font-size: 17px;
     line-height: 30px;
     color: #263441;
-}
-
-.report span:nth-child(4) {
-    font-size: 17px;
-    line-height: 30px;
-    color: #263441;
-}
-
-.report span:nth-child(7) {
-    font-size: 17px;
-    line-height: 30px;
-    color: #263441;
-}
-
-.report span:nth-child(10) {
-    font-size: 17px;
-    line-height: 30px;
-    color: #263441;
-}
-
-.report {
-    font-size: 17px;
-    line-height: 36px;
-    color: #263441;
+    text-align: center;
+    display: block;
+    font-weight: 600;
 }
 
 .tHThree {
