@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after{
     box-sizing: border-box;
 }
 
@@ -45,16 +47,41 @@ ul {
     display: inline-block;
 }
 
-.emails {
+header .emails {
     margin-right: 80px;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
 }
 
-.times {
+header .emails:hover {
+    color: #66aaf5;
+}
+
+header .times {
     margin-right: 80px;
+    color: #ffffff;
 }
 
 .tit {
     margin-right: 80px;
+    margin-right: 80px;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+header .tit:hover {
+    color: #66aaf5;
 }
 
 .time {
@@ -91,6 +118,10 @@ ul {
     margin-left: 45px;
 }
 
+.menu li a:hover {
+    color: #66aaf5;
+}
+
 .logo span:nth-child(1) {
     font-size: 30px;
     line-height: 90px;
@@ -120,6 +151,13 @@ ul {
     font-size: 17px;
     line-height: 30px;
     color: #ffffff;
+    background: none;
+    border: #ffffff;
+    text-transform: uppercase;
+}
+
+.btnOne:hover {
+    color: #66aaf5;
 }
 
 .titleHFour {
