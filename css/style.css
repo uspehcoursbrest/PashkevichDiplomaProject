@@ -1,15 +1,15 @@
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: border-box;
 }
 
 body {
     margin: 0 auto;
-    font-family: "Gotham Pro" ;
+    font-family: "Gotham Pro";
 }
 
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
@@ -20,10 +20,19 @@ ul {
 }
 
 .container {
-    width: 1010px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
+header .emails [class*="icon"]{
+    font-size: 20px;
+}
+
+header .emails:hover{
+    color: #ffffff;
+}
+
 
 .clear::after {
     content: '';
@@ -31,10 +40,59 @@ ul {
     clear: both;
 }
 
-.fonHeader {
+.invisLink {
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 500px;
+
+}
+
+
+.invisLink > a {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap;
+}
+
+
+header .fonHeader {
     width: 1920px;
     height: 50px;
-    background-color: #263441;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+header .table {
+    display: table;
+    width: 100%;
+}
+
+header .left,
+header .logo,
+header .right {
+    display: table-cell;
+    width: 33.3333%;
+    vertical-align: top;
+}
+
+header .left {
+    text-align: left;
+    padding-right: 20px;
+}
+
+header .logo {
+    text-align: center;
+}
+
+header .right {
+    text-align: right;
 }
 
 .contact {
@@ -49,6 +107,8 @@ ul {
 
 header .emails {
     margin-right: 80px;
+    padding-left: 735px;
+
     color: #ffffff;
     text-decoration: none;
     -webkit-transition: all 0.3s;
@@ -65,12 +125,13 @@ header .emails:hover {
 
 header .times {
     margin-right: 80px;
+    text-transform: uppercase;
     color: #ffffff;
 }
 
 .tit {
     margin-right: 80px;
-    margin-right: 80px;
+    text-transform: uppercase;
     color: #ffffff;
     text-decoration: none;
     -webkit-transition: all 0.3s;
@@ -96,6 +157,11 @@ header .tit:hover {
     color: #ffffff;
 }
 
+.menu {
+    padding-left: 650px;
+    text-transform: uppercase;
+}
+
 .menu li {
     display: inline-block;
     font-size: 15px;
@@ -105,12 +171,40 @@ header .tit:hover {
 }
 
 .logo {
-    width: 1920px;
-    line-height: 670px;
+    width: 1300px;
+    height: 670px;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center;
+}
+
+.logo .words {
+    margin-top: 195px;
+}
+
+.logo .words .btnOne {
+    margin-top: 60px;
+}
+
+.logo span:nth-child(1) {
+    width: 30px;
+    line-height: 90px;
+    text-transform: uppercase;
+}
+
+.logo span:nth-child(2) {
+    width: 70px;
+    line-height: 90px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.logo span:nth-child(3) {
+    width: 70px;
+    line-height: 90px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .menu li a {
@@ -152,12 +246,84 @@ header .tit:hover {
     line-height: 30px;
     color: #ffffff;
     background: none;
-    border: #ffffff;
+    border: 3px solid #ffffff;
     text-transform: uppercase;
 }
 
 .btnOne:hover {
     color: #66aaf5;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: block;
+    margin-top: 100px;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.unite {
+    padding-left: 220px;
+    margin-top: -300px;
+}
+
+.banner .unite .pBan p {
+    font-size: 17px;
+    line-height: 90px;
+    color: #ffffff;
+    padding-left: 230px;
+    margin-top: -20px;
+}
+
+.banner .unite .pBann p {
+    font-size: 70px;
+    line-height: 30px;
+    color: #61acff;
+    padding-left: 230px;
+    margin-top: -20px;
+}
+
+.banner h1:nth-child(1) {
+    font-size: 17px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.banner h1:nth-child(2) {
+    font-size: 70px;
+    line-height: 70px;
+    color: #ffffff;
+}
+
+.banner h1:nth-child(3) {
+    font-size: 70px;
+    line-height: 70px;
+    color: #ffffff;
+}
+
+.titBan {
+    padding-left: 380px;
+    padding-top: 100px;
+}
+
+.infoContent {
+    position: absolute;
+    padding-left: 700px;
+    margin-top: -400px;
+}
+
+.licenseBlock {
+    position: relative;
+    float: right;
+    margin-right: 150px;
+    margin-top: -360px;
 }
 
 .titleHFour {
@@ -212,50 +378,114 @@ header .tit:hover {
     color: #263441;
 }
 
+.info {
+    margin-top: 200px;
+    width: 100%;
+    height: 800px;
+
+}
+
 .medText {
     font-size: 17px;
     line-height: 70px;
     color: #ffffff;
+    padding-left: 380px;
+    font-weight: 400;
+    padding-top: 100px;
 }
 
 .medOur {
     font-size: 50px;
     line-height: 70px;
     color: #ffffff;
+    padding-left: 380px;
 }
 
 .p {
     font-size: 17px;
     line-height: 30px;
     color: #ffffff;
+    padding-left: 380px;
+    padding-top: 100px;
+}
+
+.infoTwo p {
+    padding-left: 450px;
+    margin-top: -40px;
+}
+
+.infoTwo p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.infoTwo img {
+    padding-left: 380px;
+    margin-top: 10px;
+}
+
+.infoTwo span {
+    font-size: 24px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.infoTwo span {
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 15px;
 }
 
 .statistic {
     font-size: 17px;
     line-height: 100px;
     color: #ffffff;
+    width: 100%;
+    height: 320px;
+    margin: 0;
+}
+
+.stat {
+    width: 33.333%;
+    float: left;
+    padding: 0 200px;
+}
+
+.statistic span {
+    font-size: 17px;
+    line-height: 100px;
+    font-weight: 400;
 }
 
 .statistic span:nth-child(2) {
     font-size: 50px;
     line-height: 100px;
-    color: #263441;
+    color: #ffffff;
 }
 
 .statistic span:nth-child(4) {
     font-size: 50px;
     line-height: 100px;
-    color: #263441;
+    color: #ffffff;
 }
 
 .statistic span:nth-child(6) {
     font-size: 50px;
     line-height: 100px;
-    color: #263441;
+    color: #ffffff;
+}
+
+.imageLeft {
+    width: calc(100% - 960px);
+    height: 652px;
+    padding: 0 15px;
+    float: left;
 }
 
 .report {
     position: relative;
+    padding-top: 40px;
 }
 
 .report p {
@@ -271,19 +501,43 @@ header .tit:hover {
     margin: 0 auto;
 }
 
-.report .repTwo img{
+.report .repTwo img {
     display: block;
     margin: 0 auto;
 }
 
-.report .repThree img{
+.report .repThree img {
     display: block;
     margin: 0 auto;
 }
 
-.report .repFour img{
+.report .repFour img {
     display: block;
     margin: 0 auto;
+}
+
+.repTwo {
+    margin-top: 140px;
+}
+
+.repFour {
+    margin-top: 140px;
+}
+
+.report1 {
+    position: relative;
+    display: table;
+    vertical-align: middle;
+    padding-left: 120px;
+    padding-top: 70px;
+}
+
+.report2 {
+    position: relative;
+    display: table;
+    vertical-align: middle;
+    padding-left: 590px;
+    margin-top: -440px;
 }
 
 .report span {
@@ -295,16 +549,55 @@ header .tit:hover {
     font-weight: 600;
 }
 
+.title {
+    margin-top: 100px;
+    display: block;
+}
+
+.price {
+    height: 470px;
+    width: 1200px;
+    background-position: center;
+    margin-left: 380px;
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.first {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 33.33%;
+}
+
+.priceA {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 33.33%;
+}
+
+.priceB {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 33.33%;
+}
+
 .tHThree {
     font-size: 17px;
     line-height: 70px;
     color: #263441;
+    text-align: center;
 }
 
 .tHOnes {
     font-size: 36px;
     line-height: 50px;
     color: #263441;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .priceOne {
@@ -384,11 +677,13 @@ header .tit:hover {
     line-height: 50px;
     color: #263441;
 }
+
 .priceA span:nth-child(3) {
     font-size: 15px;
     line-height: 50px;
     color: #263441;
 }
+
 .priceA span:nth-child(4) {
     font-size: 15px;
     line-height: 50px;
@@ -455,28 +750,25 @@ header .tit:hover {
     color: #ffffff;
 }
 
-.banner h1:nth-child(1) {
-    font-size: 70px;
-    line-height: 70px;
-    color: #ffffff;
+.comments img {
+    display: table;
+    width: 100%;
 }
 
-.banner h1:nth-child(2) {
-    font-size: 70px;
-    line-height: 70px;
-    color: #ffffff;
+.comments p {
+    margin-top: -255px;
 }
 
-.pBan {
-    font-size: 17px;
-    line-height: 90px;
-    color: #ffffff;
+.comment1 {
+    width: 50%;
+    float: left;
+    padding-left: 30px;
 }
 
-.pBann {
-    font-size: 70px;
-    line-height: 30px;
-    color: #61acff;
+.comment2 {
+    width: 50%;
+    float: right;
+    padding-left: 30px;
 }
 
 .comments p:nth-child(1) {
@@ -491,51 +783,200 @@ header .tit:hover {
     color: #778b9d;
 }
 
-.contact {
-    width: calc(100% - 320px);
+.item .pictureFace1 {
+    width: 80px;
+    height: 80px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 33px;
+    margin-top: -200px;
 }
 
-.contact span:nth-child(1) {
-    float: left;
-    width: 33.333%;
-    font-weight: bold;
-    display: block;
+.item .pictureFace1 span:nth-child(1) {
     font-size: 17px;
     line-height: 30px;
-    color: #263441;
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 10px;
 }
 
-.contact span:nth-child(3) {
-    float: left;
-    width: 33.333%;
-    font-weight: bold;
-    display: block;
+.item .pictureFace1 span:nth-child(3) {
     font-size: 17px;
     line-height: 30px;
-    color: #263441;
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 10px;
 }
 
-.contact span:nth-child(6) {
-    float: left;
-    width: 33.333%;
-    font-weight: bold;
-    display: block;
+.item .pictureFace1 span:nth-child(2) {
     font-size: 17px;
     line-height: 30px;
-    color: #263441;
+    color: #589ae3;
+    padding-top: 10px;
 }
 
-.contact span:nth-child(2) {
+.item .pictureFace1 span:nth-child(4) {
     font-size: 17px;
-    line-height: 36px;
-
-
+    line-height: 30px;
+    color: #589ae3;
+    padding-top: 10px;
 }
 
-.contact span:nth-child(4) {
-
+.news {
+    width: 1920px;
+    height: 950px;
 }
 
-.contact span:nth-child(7) {
+.newsImage {
+    width: 100%;
+    padding-bottom: 100px;
+    margin-top: 125px;
+    padding-left: 350px;
+    padding-right: 370px;
+}
 
+.newsPic1 {
+    width: 33.333%;
+    float: left;
+    height: 560px;
+}
+
+.newsPic2 {
+    width: 33.333%;
+    float: left;
+}
+
+.newsPic3 {
+    width: 33.333%;
+    float: left;
+}
+
+.news .titleNews span:nth-child(1) {
+    font-size: 17px;
+    line-height: 70px;
+    color: #263441;
+    margin-top: 400px;
+    text-transform: uppercase;
+}
+
+.news .titleNews span:nth-child(2) {
+    font-size: 36px;
+    line-height: 50px;
+    color: #263441;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.news .newsImage span {
+    font-size: 15px;
+    line-height: 22px;
+    color: #589ae3;
+}
+
+.newsImage h1 {
+    font-size: 17px;
+    line-height: 30px;
+    color: #3c3950;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.newsImage p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #778b9d;
+}
+
+.comments {
+    height: 675px;
+    width: 100%;
+}
+
+.partner {
+    text-align: center;
+    height: 160px;
+    width: 100%;
+    padding-top: 70px   ;
+}
+
+.fonRegister {
+    height: 840px;
+}
+
+.contentReg h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 90px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 100px;
+}
+
+.but {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+    background: none;
+    border: 3px solid #ffffff;
+    text-transform: uppercase;
+}
+
+.but:hover {
+    color: #66aaf5;
+}
+
+
+footer .logo {
+    height: 380px;
+    width: 1920px;
+}
+
+footer .footText span {
+    font-size: 15px;
+    line-height: 33px;
+    color: #589ae3;
+    font-weight: 500;
+}
+
+footer .footText p {
+    font-size: 15px;
+    line-height: 33px;
+    color: #ffffff;
+}
+
+footer .container {
+    width: 100%;
+}
+
+footer .footText {
+    width: 33.333%;
+    float: left;
+}
+
+footer .footBlock1 {
+     width: 33.333%;
+     float: left;
+}
+
+footer .footBlock2 {
+    width: 33.333%;
+    float: left;
+}
+
+.bannerCont span {
+    font-size: 70px;
+    line-height: 90px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.bannerCont {
+    height: 305px;
+    padding-left: 760px;
 }
