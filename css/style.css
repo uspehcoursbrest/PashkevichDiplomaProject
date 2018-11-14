@@ -19,20 +19,37 @@ ul {
     list-style-type: none;
 }
 
+@media (max-width: 1199px) {
+    .container {
+        width: 980px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 780px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-header .emails [class*="icon"]{
+header .emails [class*="icon"] {
     font-size: 20px;
 }
 
-header .emails:hover{
+header .emails:hover {
     color: #ffffff;
 }
-
 
 .clear::after {
     content: '';
@@ -42,11 +59,12 @@ header .emails:hover{
 
 .invisLink {
     position: absolute;
+    height: 53px;
+    width: 135px;
     padding-top: 20px;
-    padding-left: 500px;
+    padding-left: 295px;
 
 }
-
 
 .invisLink > a {
     display: block;
@@ -61,6 +79,26 @@ header .emails:hover{
     white-space: nowrap;
 }
 
+.invisLinks {
+    position: absolute;
+    height: 53px;
+    width: 135px;
+    padding-left: 800px;
+
+}
+
+.invisLinks > a {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap;
+}
 
 header .fonHeader {
     width: 1920px;
@@ -96,9 +134,78 @@ header .right {
 }
 
 .contact {
-    font-size: 14px;
+    height: 450px;
+}
+
+.uniteItem .item {
+    float: left;
+    width: 33%;
+    padding-top: 180px;
+    padding-left: 280px;
+}
+
+.imageContacts {
+    height: 530px;
+}
+
+.greyFon {
+    height: 780px;
+}
+
+.feedBack {
+    padding-top: 90px;
+    text-align: center;
+}
+
+.feedBack h4 {
+    font-size: 17px;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.feedBack h2 {
+    font-size: 36px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 110px;
+}
+
+.uniteItem span:nth-child(1) {
+    font-size: 17px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.uniteItem span:nth-child(3) {
+    font-size: 17px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.uniteItem span:nth-child(5) {
+    font-size: 17px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.uniteItem span:nth-child(2) {
+    font-size: 17px;
     line-height: 36px;
-    color: #66aaf5;
+}
+
+.uniteItem span:nth-child(4) {
+    font-size: 17px;
+    line-height: 36px;
+}
+
+.uniteItem span:nth-child(6) {
+    font-size: 17px;
+    line-height: 36px;
 }
 
 .fonHeader {
@@ -107,7 +214,7 @@ header .right {
 
 header .emails {
     margin-right: 80px;
-    padding-left: 735px;
+    margin-left: 735px;
     color: #ffffff;
     text-decoration: none;
     -webkit-transition: all 0.3s;
@@ -250,6 +357,20 @@ header .tit:hover {
 }
 
 .btnOne:hover {
+    color: #66aaf5;
+}
+
+.sendMessage {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+    background: none;
+    border: 3px solid #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.sendMessage:hover {
     color: #66aaf5;
 }
 
@@ -782,6 +903,13 @@ header .tit:hover {
     color: #778b9d;
 }
 
+.item {
+    float: left;
+    padding-bottom: 100px;
+    margin-top: -230px;
+    margin-left: 545px;
+}
+
 .item .pictureFace1 {
     width: 80px;
     height: 80px;
@@ -790,8 +918,16 @@ header .tit:hover {
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
-    margin-bottom: 33px;
-    margin-top: -200px;
+}
+
+.item .pictureFace2 {
+    width: 80px;
+    height: 80px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
 }
 
 .item .pictureFace1 span:nth-child(1) {
@@ -853,6 +989,11 @@ header .tit:hover {
     float: left;
 }
 
+.titleNews {
+    padding-top: 50px;
+    text-align: center;
+}
+
 .news .titleNews span:nth-child(1) {
     font-size: 17px;
     line-height: 70px;
@@ -896,9 +1037,14 @@ header .tit:hover {
 
 .partner {
     text-align: center;
-    height: 160px;
-    width: 100%;
-    padding-top: 70px   ;
+    height: 50px;
+    padding-top: 50px;
+}
+
+.payments {
+    text-align: center;
+    height: 50px;
+    padding-top: 50px;
 }
 
 .fonRegister {
@@ -929,53 +1075,71 @@ header .tit:hover {
     color: #66aaf5;
 }
 
-
-footer .logo {
-    height: 380px;
-    width: 1920px;
-}
-
-footer .footText span {
-    font-size: 15px;
-    line-height: 33px;
-    color: #589ae3;
-    font-weight: 500;
-}
-
-footer .footText p {
-    font-size: 15px;
-    line-height: 33px;
-    color: #ffffff;
-}
-
-footer .container {
-    width: 100%;
-}
-
-footer .footText {
-    width: 33.333%;
-    float: left;
-}
-
-footer .footBlock1 {
-     width: 33.333%;
-     float: left;
-}
-
-footer .footBlock2 {
-    width: 33.333%;
-    float: left;
-}
-
-.bannerCont span {
+.bannerCont p {
     font-size: 70px;
     line-height: 90px;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
+    padding-top: 110px;
 }
 
 .bannerCont {
     height: 305px;
     padding-left: 760px;
+}
+
+footer a:hover {
+    color: #66aaf5;
+}
+
+footer .leftFoot {
+    width: 260px;
+    float: left;
+    margin-left: 380px;
+}
+
+footer .menuFoot {
+    width: 560px;
+    float: left;
+    padding-left: 200px;
+}
+
+footer .labelFoot {
+    margin-left: 40px;
+}
+
+footer .rightFoot {
+    width: 250px;
+    float: left;
+}
+
+footer .leftFoot span {
+    line-height: 22px;
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+}
+
+footer .menuFoot a {
+    font-weight: 600;
+}
+
+footer .menuFoot .left {
+    width: 50%;
+    float: left;
+}
+
+footer .menuFoot .right {
+    width: 50%;
+    float: left;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+.message {
+    padding-top: 50px;
+    width: 1165px;
 }
