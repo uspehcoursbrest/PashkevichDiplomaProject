@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
@@ -22,7 +23,7 @@
             </a>
         </div>
     </div>
-    <div class="logo invisLink">
+    <div class="logo invisLinks">
         <a href="#"><img class="tCell" src="img/png/logo.png" alt="logo">Главная</a>
     </div>
     <div class="menu">
@@ -40,78 +41,79 @@
 </header>
 <body>
 <div class="content">
-    <div class="bannerCont" style="background-image: url(img/jpg/ContactFon.jpg)">>
-        <span>contacts</span>
+    <div class="bannerCont" style="background-image: url(img/jpg/ContactFon.jpg)">
+        <p>contacts</p>
     </div>
-    <div class="contact clear">
-        <div class="item">
-            <span>ADDRESS:</span>
-            <span>England, London, N1 7GU, <br> 20-22 Wenlock road</span>
-        </div>
-        <div class="item">
-        <span>PHONE:</span>
-        <span>+44 7911 123-456 <br> Only for VIP investors</span>
-        </div>
-        <div class="item">
-        <span>E-MAIL:</span>
-        <a href="">laboratory@support.ltd</a>
+    <div class="contact clear" style="background-image: url(img/jpg/fonContacts.jpg)">
+        <div class="uniteItem clear">
+            <div class="item">
+                <span>ADDRESS: <br> </span>
+                <span>England, London, N1 7GU, <br> 20-22 Wenlock road</span>
+            </div>
+            <div class="item">
+                <span>PHONE: <br> </span>
+                <span>+44 7911 123-456 <br> Only for VIP investors</span>
+            </div>
+            <div class="item">
+                <span>E-MAIL: <br> </span>
+                <a href="laboratory@support.ltd">laboratory@support.ltd</a>
+            </div>
         </div>
     </div>
-    <div class="image">
+    <div class="imageContacts" style="background-image: url(img/jpg/map.jpg)">
         <img src="" alt=""></div>
-    <form action="">
-        <h4>CONTACT us</h4>
-        <h2>FEEDBACK</h2>
-        <label for="name">Your Name:</label>
-        <input type="text" id="name">
-        <label for="mail">Your E-mail:</label>
-        <input type="text" id="mail">
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject">
-        <label for="message">Message:</label>
-        <textarea name="message" id="message"></textarea>
-        <button><a href="">SEND MESSAGE</a></button>
-    </form>
+    <div class="greyFon" style="background-image: url(img/jpg/fonContacts.jpg)">
+        <div class="feedBack">
+            <h4>contact us</h4>
+            <h2>FEEDBACK</h2>
+            <form action="">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name">
+                <label for="mail">Your E-mail:</label>
+                <input type="text" id="mail">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject">
+                <div class="mes">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <button class="sendMessage"><a href=""></a>SEND MESSAGE</button>
+            </form>
+        </div>
+    </div>
     <div class="payments">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <ul>
+            <li><img src="img/png/payment.png" alt=""></li>
+        </ul>
     </div>
 </div>
-<footer>
-    <div class="container">
-        <div class="logo" style="background-image: url(img/jpg/fonFooter.jpg)">
-            <div class="footText">
-                <img class="tCell" src="img/png/footLabel.png" alt="">
-                <span class="left">&#169; 2018 MEDICAL RESEARCH LABORATORY LTD</span>
-                <p>Curabitur interdum vulputate nunc ac congue. <br> Proin nisl a sodales suscipit, dolor sem dignissim
-                    era.</p>
+<footer style="background-image: url(img/jpg/fonFooter.jpg)">
+    <div class="container clear">
+        <div class="leftFoot">
+            <div class="labelFoot">
+                <a href="#" class="invisLink"><img src="img/png/footLabel.png" alt=""></a>
             </div>
-            <div class="contacts">
-                <div class="footBlock1">
-                    <div class="PicFoot">
-                        <img class="tCell" src="img/png/footLicense.png" alt="">
-                    </div>
-                    <div class="FootText1">
-                        <span>Address:</span>
-                        <p>England, London, N1 7GU,20-22 Wenlock road</p>
-                    </div>
-                    <span>License:</span>
-                    <p>№ 1123988677878</p>
-                </div>
-                <div class="footBlock2">
-                    <div class="FootText1">
-                        <span>Phone:</span>
-                        <p>+44 7911 123-456</p>
-                        <span>Only for VIP investors</span>
-                        <span>E-mail:</span>
-                        <p>laboratory@support.ltd</p>
-                    </div>
-                </div>
+            <span>2018 MEDICAL RESEARCH LABORATORY LTD  &#169;</span>
+            <p>Curabitur interdum vulputate nunc ac congue. Proin <br> nisl a sodales suscipit, dolor sem dignissim era.
+            </p>
+        </div>
+        <div class="menuFoot clear">
+            <img class="tCell" src="img/png/footLicense.png" alt="">
+            <span>Address:</span>
+            <p>England, London, N1 7GU,20-22 Wenlock road</p>
+            <span>License:</span>
+            <p>№ 1123988677878</p>
+        </div>
+        <div class="rightFoot">
+            <div class="telephoneFoot">
+                <span>Phone:</span>
+                <a href="+44 7911 123-456">+44 7911 123-456</a>
+            </div>
+            <div class="postFoot">
+                <span>E-mail:</span>
+                <a href="laboratory@support.ltd">laboratory@support.ltd</a>
             </div>
         </div>
     </div>
 </footer>
 </body>
-
