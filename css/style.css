@@ -1139,7 +1139,17 @@ footer a {
     color: #ffffff;
 }
 
-.message {
-    padding-top: 50px;
-    width: 1165px;
+textarea[name="message"] {
+    width: 1340px;
+    height: 180px;
 }
+
+input[type="text"], input[type="text"], input[type="text"] {
+    height: 50px;
+    width: 360px;
+    margin-left: 30px;
+    margin-bottom: 45px;
+}
+
+
+
