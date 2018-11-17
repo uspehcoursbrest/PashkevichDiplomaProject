@@ -48,7 +48,11 @@ header .emails [class*="icon"] {
 }
 
 header .emails:hover {
-    color: #ffffff;
+    color: #66aaf5;
+}
+
+header .times:hover {
+    color: #66aaf5;
 }
 
 .clear::after {
@@ -105,6 +109,23 @@ header .fonHeader {
     height: 50px;
     padding-top: 10px;
     padding-bottom: 20px;
+    margin-left: 680px;
+    text-decoration: none;
+}
+
+.icon-bird, .icon-message, .icon-clock, .icon-zam2 {
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+}
+
+.icon-zam2 {
+    padding-left: 50px;
+}
+
+.icon-message {
+    padding-left: 35px;
+    padding-right: 10px;
 }
 
 header .table {
@@ -137,13 +158,6 @@ header .right {
     height: 450px;
 }
 
-.uniteItem .item {
-    float: left;
-    width: 33%;
-    padding-top: 180px;
-    padding-left: 280px;
-}
-
 .imageContacts {
     height: 530px;
 }
@@ -171,6 +185,14 @@ header .right {
     font-weight: 600;
     padding-bottom: 110px;
 }
+
+.uniteItem {
+    float: left;
+    width: 100%;
+    margin-left: 275px;
+    margin-top: 110px;
+}
+
 
 .uniteItem span:nth-child(1) {
     font-size: 17px;
@@ -203,9 +225,15 @@ header .right {
     line-height: 36px;
 }
 
-.uniteItem span:nth-child(6) {
+.uniteItem span:nth-child(5) {
     font-size: 17px;
     line-height: 36px;
+}
+
+.uniteItem a {
+    font-size: 17px;
+    line-height: 36px;
+    text-decoration: none;
 }
 
 .fonHeader {
@@ -214,7 +242,6 @@ header .right {
 
 header .emails {
     margin-right: 80px;
-    margin-left: 735px;
     color: #ffffff;
     text-decoration: none;
     -webkit-transition: all 0.3s;
@@ -222,17 +249,24 @@ header .emails {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-
-}
-
-header .emails:hover {
-    color: #66aaf5;
 }
 
 header .times {
     margin-right: 80px;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+header .times {
+    margin-right: 5px;
     text-transform: uppercase;
     color: #ffffff;
+    text-decoration: none;
 }
 
 .tit {
@@ -395,7 +429,7 @@ header .tit:hover {
 
 .banner .unite .pBan p {
     font-size: 17px;
-    line-height: 90px;
+    line-height: 80px;
     color: #ffffff;
     padding-left: 230px;
     margin-top: -20px;
@@ -903,11 +937,21 @@ header .tit:hover {
     color: #778b9d;
 }
 
-.item {
+.item:nth-child(1) {
+    width: 33.333%;
     float: left;
-    padding-bottom: 100px;
-    margin-top: -230px;
-    margin-left: 545px;
+    padding: 0 45px;
+}
+
+.item:nth-child(2) {
+    width: 33.333%;
+    float: left;
+    padding: 0 45px;
+}
+
+.unitePicFace {
+    padding-bottom: 150px;
+    padding-left: 320px;
 }
 
 .item .pictureFace1 {
@@ -976,7 +1020,7 @@ header .tit:hover {
 .newsPic1 {
     width: 33.333%;
     float: left;
-    height: 560px;
+    height: 570px;
 }
 
 .newsPic2 {
@@ -987,6 +1031,18 @@ header .tit:hover {
 .newsPic3 {
     width: 33.333%;
     float: left;
+}
+
+.newsPicText1 {
+     padding-top: 30px;
+ }
+
+.newsPicText2 {
+    padding-top: 30px;
+}
+
+.newsPicText3 {
+    padding-top: 30px;
 }
 
 .titleNews {
@@ -1021,18 +1077,25 @@ header .tit:hover {
     line-height: 30px;
     color: #3c3950;
     text-transform: uppercase;
-    text-align: center;
+    padding-top: 35px;
 }
 
 .newsImage p {
     font-size: 15px;
     line-height: 24px;
     color: #778b9d;
+    padding-top: 40px;
+}
+
+.icon-calend {
+    height: 10px;
+    width: 15px;
 }
 
 .comments {
     height: 675px;
     width: 100%;
+    margin-bottom: -280px;
 }
 
 .partner {
@@ -1049,6 +1112,16 @@ header .tit:hover {
 
 .fonRegister {
     height: 840px;
+    margin-top: -100px;
+}
+
+.formReg {
+    vertical-align: center;
+}
+
+.CheckBox {
+    margin-top: 60px;
+    text-align: center;
 }
 
 .contentReg h1 {
@@ -1069,6 +1142,10 @@ header .tit:hover {
     background: none;
     border: 3px solid #ffffff;
     text-transform: uppercase;
+    margin-left: 710px;
+    width: 360px;
+    height: 45px;
+    margin-top: 100px;
 }
 
 .but:hover {
@@ -1093,46 +1170,78 @@ footer a:hover {
     color: #66aaf5;
 }
 
-footer .leftFoot {
-    width: 260px;
-    float: left;
-    margin-left: 380px;
+footer .container {
+    width: 1200px;
 }
 
-footer .menuFoot {
-    width: 560px;
+footer .footerMenu {
+    display: table;
+    width: 100%;
     float: left;
-    padding-left: 200px;
 }
 
-footer .labelFoot {
-    margin-left: 40px;
+.footerMenu .leftFoot {
+    display: block;
+    width: 44%;
+    float: left;
+    padding-right: 90px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
 }
 
-footer .rightFoot {
-    width: 250px;
+.footerMenu .menuFoot {
+    display: block;
+    width: 28%;
     float: left;
+
+}
+
+.menuFoot {
+    display: table;
+    width: 100%;
+    float: left;
+}
+
+.menuFoot .footLic {
+    display: block;
+    width: 50%;
+    float: left;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.menuFoot .licAddress {
+    display: block;
+    width: 50%;
+    float: right;
+}
+
+.licAddress p {
+    margin-top: 50px;
+}
+
+.licAddress {
+    padding-top: 50px;
+}
+
+.footerMenu .rightFoot {
+    display: block;
+    width: 28%;
+    float: right;
+    padding-left: 70px;
+    padding-top: 90px;
+
 }
 
 footer .leftFoot span {
     line-height: 22px;
     display: block;
-    text-align: center;
     margin-top: 25px;
 }
 
 footer .menuFoot a {
     font-weight: 600;
-}
-
-footer .menuFoot .left {
-    width: 50%;
-    float: left;
-}
-
-footer .menuFoot .right {
-    width: 50%;
-    float: left;
 }
 
 footer a {
@@ -1149,7 +1258,45 @@ input[type="text"], input[type="text"], input[type="text"] {
     width: 360px;
     margin-left: 30px;
     margin-bottom: 45px;
+    background: #3a3c47;
+    border: 2px solid #3a3c47;
 }
+
+
+.CheckBox span {
+    font-size: 15px;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+.CheckBox input {
+    width: 20px;
+    height: 20px;
+    background: #3a3c47;
+}
+
+label {
+    float: top;
+}
+
+.clock {
+    display: inline-block;
+}
+
+.date {
+    font-size: 15px;
+    line-height: 30px;
+    color: #9ca2a8;
+}
+
+.time {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #66aaf5;
+}
+
+
 
 
 
