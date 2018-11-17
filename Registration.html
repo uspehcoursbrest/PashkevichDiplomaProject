@@ -7,28 +7,30 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <script type="text/javascript" src="JS/script.js"></script>
 </head>
 <body>
 <header>
-    <div class="fonPicture" style="background-image: url(img/jpg/fonHeader.jpg)">
+    <div class="fonPicture clear" style="background-image: url(img/jpg/fonHeader.jpg)">
         <div class="fonHeader ">
-            <a href="#" class="emails">
-                <span class="icon-9"></span><span class="icon-8"></span>
-                laboratory@support.ltd</a>
-            <a href="#"><span class="icon-6"></span>
-                <span class="times">Server Time: 20:47:02 05 JUN 2018 </span>
-            </a>
-            <a href="#">
-                <span class="icon-7"></span>
-                <span class="tit">login/registration</span>
-            </a>
+            <span class="icon-bird"></span><span class="icon-message"></span>
+            <a href="#" class="emails">laboratory@support.ltd</a>
+            <span class="icon-clock"></span>
+            <div class="item clock">
+                <span class="times">Server Time:</span>
+                <span class="time" id="time">20:47:02</span>
+                <span class="date" id="date">05 JUN 2018</span>
+            </div>
+            <span class="icon-zam2"></span>
+            <a href="#"><span class="tit">login/registration</span></a>
         </div>
     </div>
-    <div class="logo invisLink">
+    <div class="logo invisLink clear">
         <img class="tCell" src="img/png/logo.png" alt="logo">
         <a href="#">Главная</a>
     </div>
-    <div class="menu">
+    <div class="menu clear">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About us</a></li>
@@ -42,26 +44,31 @@
     </div>
 </header>
 <div class="fonRegister" style="background-image: url(img/jpg/RegFon.jpg)">
-<div class="container">
-    <div class="contentReg">
-        <h1>register</h1>
-        <form action="">
-            <label for="Fullname">Fullname:</label>
-            <input type="text" id="Fullname">
-            <label for="E-mail">E-mail:</label>
-            <input type="text" id="E-mail">
-            <label for="password">Password:</label>
-            <input type="text" id="password">
-            <label for="username">Username:</label>
-            <input type="text" id="username">
-            <label for="invited">Invited you:</label>
-            <input type="text" id="invited">
-            <label for="confirmPassword">Confirm Password</label>
-            <input type="text" id="confirmPassword">
-        </form>
-        <button class="but"><a href=""></a>register</button>
+    <div class="container">
+        <div class="contentReg">
+            <h1>register</h1>
+            <div class="formReg">
+                <form action="">
+                    <label for="Fullname">Fullname:</label>
+                    <input type="text" id="Fullname">
+                    <label for="E-mail">E-mail:</label>
+                    <input type="text" id="E-mail">
+                    <label for="password">Password:</label>
+                    <input type="text" id="password">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username">
+                    <label for="invited">Invited you:</label>
+                    <input type="text" id="invited">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="text" id="confirmPassword">
+                </form>
+            </div>
+            <div class="CheckBox">
+                <span><input type="checkbox">I've read the terms and conditions</span>
+            </div>
+            <button class="but"><a href=""></a>register</button>
+        </div>
     </div>
-</div>
 </div>
 <div class="partner">
     <ul>
@@ -70,29 +77,34 @@
 </div>
 <footer style="background-image: url(img/jpg/fonFooter.jpg)">
     <div class="container clear">
-        <div class="leftFoot">
-            <div class="labelFoot">
-                <a href="#" class="invisLink"><img src="img/png/footLabel.png" alt=""></a>
+        <div class="footerMenu clear">
+            <div class="leftFoot">
+                <div class="labelFoot">
+                    <img src="img/png/footLabel.png" alt="">
+                </div>
+                <span>&#169;2018 MEDICAL RESEARCH LABORATORY LTD</span>
+                <p>Curabitur interdum vulputate nunc ac congue. Proin <br> nisl a sodales suscipit, dolor sem dignissim
+                    era.
+                </p>
             </div>
-            <span>2018 MEDICAL RESEARCH LABORATORY LTD  &#169;</span>
-            <p>Curabitur interdum vulputate nunc ac congue. Proin <br> nisl a sodales suscipit, dolor sem dignissim era.
-            </p>
-        </div>
-        <div class="menuFoot clear">
-            <img class="tCell" src="img/png/footLicense.png" alt="">
-            <span>Address:</span>
-            <p>England, London, N1 7GU,20-22 Wenlock road</p>
-            <span>License:</span>
-            <p>№ 1123988677878</p>
-        </div>
-        <div class="rightFoot">
-            <div class="telephoneFoot">
-                <span>Phone:</span>
-                <a href="+44 7911 123-456">+44 7911 123-456</a>
+            <div class="menuFoot">
+                <div class="footLic">
+                    <img class="tCell" src="img/png/footLicense.png" alt="">
+                </div>
+                <div class="licAddress">
+                    <p><span>Address:</span> <br> England, London, N1 7GU,20-22 Wenlock road</p>
+                    <p><span>License:</span> <br> № 1123988677878</p>
+                </div>
             </div>
-            <div class="postFoot">
-                <span>E-mail:</span>
-                <a href="laboratory@support.ltd">laboratory@support.ltd</a>
+            <div class="rightFoot">
+                <div class="telephoneFoot">
+                    <span>Phone:</span>
+                    <a href="">+44 7911 123-456</a>
+                </div>
+                <div class="postFoot">
+                    <span>E-mail:</span>
+                    <a href="">laboratory@support.ltd</a>
+                </div>
             </div>
         </div>
     </div>
