@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
+    <script type="text/javascript" src="JS/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="JS/script.js"></script>
 </head>
 <body>
@@ -47,7 +48,7 @@
             <span>We repair our cars and gadgets, <br> </span>
             <span>it may be time to reflect <br> </span>
             <span style="background-image: url(img/jpg/blue.jpg)">about people?<br> </span>
-            <button class="btnOne"><a href=""></a>Register now</button>
+            <button class="btnOne">Register now</button>
         </div>
     </div>
 </header>
@@ -132,14 +133,19 @@
             </div>
         </div>
         <div class="statistic" style="background-image: url(img/jpg/underPic.jpg)">
-            <div class="stat">
-                <span>TOTAL INVESTORS</span> <br> <span>83268</span>
-            </div>
-            <div class="stat">
-                <span>TOTAL INVESTED</span> <br> <span>280950$</span>
-            </div>
-            <div class="stat">
-                <span>TOTAL PAID OUT</span> <br> <span>140210$</span>
+            <div class="statUnder">
+                <div class="stat1">
+                    <span>total investors</span>
+                    <span>83268</span>
+                </div>
+                <div class="stat2">
+                    <span>total invested</span>
+                    <span>280950$</span>
+                </div>
+                <div class="stat3">
+                    <span>total paid out</span>
+                    <span>140210$</span>
+                </div>
             </div>
         </div>
         <div class="imageLeft" style="background-image: url(img/jpg/1.jpg)">
@@ -169,48 +175,81 @@
                     <p>consectetur adipiscing elit.</p>
                 </div>
             </div>
-            <div class="title">
-                <h3 class="tHThree">MEDICAL RESEARCH LABORATORY LTD</h3>
-                <h1 class="tHOnes">INVESTMENT OFFERS</h1>
+        </div>
+        <div class="title clear">
+            <h3 class="tHThree">MEDICAL RESEARCH LABORATORY LTD</h3>
+            <h1 class="tHOnes">INVESTMENT OFFERS</h1>
+            <div class="linePic">
+                <img src="img/png/line.png" alt="">
             </div>
-            <div class="price" style="background-image: url(img/jpg/Rectangle.jpg)">
-                <div class="W">
-                    <div class="first">
-                        <h2 class="priceOne">0.7%</h2>
-                        <h3 class="pricesOne">/ per day</h3>
-                        <h2 class="pricesTwo">BASIC</h2>
-                        <img src="" alt="">
-                        <span>Minimal: 10$</span>
-                        <span>Maximal: 500$</span>
-                        <span>Term of deposit: 400 days</span>
-                        <span>Deposit is included in payments</span>
-                        <button class="butInv">INVESTMENT</button>
+            <div class="price clear">
+                <div class="first">
+                    <div class="W clear">
+                        <img src="img/png/Rectang1.png" alt="">
                     </div>
+                    <h2 class="priceOne">0.7%</h2>
+                    <h3 class="pricesOne">/ per day</h3>
+                    <h2 class="pricesTwo">BASIC</h2>
+                    <div>
+                        <span>Minimal: 10$</span>
+                    </div>
+                    <div>
+                        <span>Maximal: 500$</span>
+                    </div>
+                    <div>
+                        <span>Term of deposit: 400 days</span>
+                    </div>
+                    <div>
+                        <span>Deposit is included in payments</span>
+                    </div>
+                    <button class="butInv">INVESTMENT</button>
                 </div>
-                <div class="priceA">
+                <div class="priceA clear">
+                    <div class="Q clear">
+                        <img src="img/png/Rectang2.png" alt="">
+                    </div>
                     <h2 class="pricesA">0.8%</h2>
                     <h3 class="pricesAa">/ per day</h3>
                     <h2 class="pricesAaa">BUSINESS</h2>
-                    <img src="" alt="">
-                    <span>Minimal: 1000$</span>
-                    <span>Maximal: 50000$</span>
-                    <span>Term of deposit: 400 days</span>
-                    <span>Deposit is included in payments</span>
+                    <div>
+                        <span>Minimal: 1000$</span>
+                    </div>
+                    <div>
+                        <span>Maximal: 50000$</span>
+                    </div>
+                    <div>
+                        <span>Term of deposit: 400 days</span>
+                    </div>
+                    <div>
+                        <span>Deposit is included in payments</span>
+                    </div>
                     <button class="butInvA">INVESTMENT</button>
                 </div>
-                <div class="priceB">
+                <div class="priceB clear">
+                    <div class="E clear">
+                        <img src="img/png/Rectang3.png" alt="">
+                    </div>
                     <h2 class="pricesB">1.0%</h2>
                     <h3 class="pricesBb">/ per day</h3>
                     <h2 class="pricesBbb">PREMIUM</h2>
-                    <img src="" alt="">
-                    <span>Minimal: 500$</span>
-                    <span>Maximal: 100000$</span>
-                    <span>Term of deposit: 400 days</span>
-                    <span>Deposit is included in payments</span>
+                    <div>
+                        <span>Minimal: 500$</span>
+                    </div>
+                    <div>
+                        <span>Maximal: 100000$</span>
+                    </div>
+                    <div>
+                        <span>Term of deposit: 400 days</span>
+                    </div>
+                    <div>
+                        <span>Deposit is included in payments</span>
+                    </div>
                     <button class="butInvB">INVESTMENT</button>
                 </div>
             </div>
-            <div class="banner" style="background-image: url(img/jpg/banner4.jpg)">
+        </div>
+        <div class="banner clear" style="background-image: url(img/jpg/banner4.jpg)">
+            <div class="Affilate">
                 <div class="titBan">
                     <h1>three-level </h1>
                     <h1>AFFILATE</h1>
@@ -222,45 +261,43 @@
                             nunc ac congue.
                             Proin vestibulum, nisl a <br> sodales suscipit, dolor sem dignissim erat, sit amet
                             fringilla.</p>
-                        <p>Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit.</p>
                     </div>
                     <div class="pBann">
-                        <p>6% 2%- 1%</p>
+                        <p>6% - 2% - 1%</p>
                     </div>
                 </div>
             </div>
-            <div class="container clear">
-                <div class="comments">
-                    <div class="comment1">
-                        <img src="img/png/face.png" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit <br>. Curabitur interdum vulputate
-                            nunc ac
-                            congue. Proin <br> vestibulum, nisl a sodales suscipit, dolor sem dignissim <br> erat, sit
-                            amet fringilla sem nisi sagittis quam.</p>
-                    </div>
-                    <div class="comment2">
-                        <img src="img/png/face.png" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit <br>. Curabitur interdum vulputate
-                            nunc ac
-                            congue. Proin <br> vestibulum, nisl a sodales suscipit, dolor sem dignissim <br> erat, sit
-                            amet fringilla sem nisi sagittis quam.</p>
-                    </div>
+        </div>
+        <div class="container clear">
+            <div class="comments">
+                <div class="comment1">
+                    <img src="img/png/face.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit <br>. Curabitur interdum vulputate
+                        nunc ac
+                        congue. Proin <br> vestibulum, nisl a sodales suscipit, dolor sem dignissim <br> erat, sit
+                        amet fringilla sem nisi sagittis quam.</p>
                 </div>
-                <div class="headItem clear">
-                    <div class="unitePicFace clear">
-                        <div class="item">
-                            <div class="pictureFace1" style="background-image: url(img/png/face1.png)">
-                            </div>
-                            <span>justin forder</span>
-                            <span>Investor</span>
+                <div class="comment2">
+                    <img src="img/png/face.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit <br>. Curabitur interdum vulputate
+                        nunc ac
+                        congue. Proin <br> vestibulum, nisl a sodales suscipit, dolor sem dignissim <br> erat, sit
+                        amet fringilla sem nisi sagittis quam.</p>
+                </div>
+            </div>
+            <div class="headItem clear">
+                <div class="unitePicFace clear">
+                    <div class="item">
+                        <div class="pictureFace1" style="background-image: url(img/png/face1.png)">
                         </div>
-                        <div class="item">
-                            <div class="pictureFace2" style="background-image: url(img/png/face2.png)">
-                            </div>
-                            <span>emerson veber</span>
-                            <span>Investor</span>
+                        <span>justin forder</span>
+                        <span>Investor</span>
+                    </div>
+                    <div class="item">
+                        <div class="pictureFace2" style="background-image: url(img/png/face2.png)">
                         </div>
+                        <span>emerson veber</span>
+                        <span>Investor</span>
                     </div>
                 </div>
             </div>
@@ -269,6 +306,9 @@
             <div class="titleNews">
                 <span>MEDICAL RESEARCH LABORATORY LTD <br> </span>
                 <span>latest news</span>
+                <div class="linePic">
+                    <img src="img/png/line.png" alt="">
+                </div>
             </div>
             <div class="newsImage">
                 <div class="newsPic1">
@@ -277,7 +317,8 @@
                         <span class="icon-calend"></span>
                         <span>16 June 2108  15:40</span>
                         <h1>Lorem ipsum dolor sit amet, <br> consectetur elit</h1>
-                        <p>Curabitur interdum vulputate nunc ac <br> congue. Proin nisl a sodales suscipit, <br> dolor
+                        <p>Curabitur interdum vulputate nunc ac <br> congue. Proin nisl a sodales suscipit, <br>
+                            dolor
                             sem
                             dignissim erat,
                             sit amet <br> fringilla sem nisi.</p>
@@ -290,7 +331,8 @@
                         <span>19 June 2108  15:40</span>
                         <h1>Lorem ipsum dolor sit amet, <br>
                             consectetur elit</h1>
-                        <p>Curabitur interdum vulputate nunc ac <br> congue. Proin nisl a sodales suscipit, <br> dolor
+                        <p>Curabitur interdum vulputate nunc ac <br> congue. Proin nisl a sodales suscipit, <br>
+                            dolor
                             sem
                             dignissim erat,
                             sit amet <br> fringilla sem nisi.</p>
@@ -303,7 +345,8 @@
                         <span>21 June 2108  15:40</span>
                         <h1>Lorem ipsum dolor sit amet, <br>
                             consectetur elit</h1>
-                        <p>Curabitur interdum vulputate nunc ac <br> congue. Proin nisl a sodales suscipit, <br> dolor
+                        <p>Curabitur interdum vulputate nunc ac <br> congue. Proin nisl a sodales suscipit, <br>
+                            dolor
                             sem
                             dignissim erat,
                             sit amet <br> fringilla sem nisi.</p>
@@ -323,10 +366,11 @@
         <div class="footerMenu clear">
             <div class="leftFoot">
                 <div class="labelFoot">
-                  <img src="img/png/footLabel.png" alt="">
+                    <img src="img/png/footLabel.png" alt="">
                 </div>
                 <span>&#169;2018 MEDICAL RESEARCH LABORATORY LTD</span>
-                <p>Curabitur interdum vulputate nunc ac congue. Proin <br> nisl a sodales suscipit, dolor sem dignissim
+                <p>Curabitur interdum vulputate nunc ac congue. Proin <br> nisl a sodales suscipit, dolor sem
+                    dignissim
                     era.
                 </p>
             </div>
@@ -341,16 +385,18 @@
             </div>
             <div class="rightFoot">
                 <div class="telephoneFoot">
-                    <span>Phone:</span>
-                    <a href="">+44 7911 123-456</a>
+                    <span>Phone:</span> <br>
+                    <a href="">+44 7911 123-456</a> <br>
+                    <span>Only for VIP investors</span>
                 </div>
                 <div class="postFoot">
-                    <span>E-mail:</span>
+                    <span>E-mail:</span> <br>
                     <a href="">laboratory@support.ltd</a>
                 </div>
             </div>
         </div>
     </div>
 </footer>
+<button class="up">Наверх</button>
 </body>
 </html>
