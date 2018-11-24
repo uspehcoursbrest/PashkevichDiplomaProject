@@ -43,5 +43,38 @@ $(document).ready(function () {
         }, 1000);
         return false;
     })
+
+    $('.bannerSlide').owlCarousel({
+        margin: 40,
+        items: 4,
+        dots: false,
+        nav: true,
+        navText: ["<",">"],
+        loop: true
+
+    });
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
