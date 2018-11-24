@@ -144,7 +144,7 @@ header .bannerSlide {
     margin-top: 20px;
 }
 
-header .bannerSlide .owl-nav > button[class*="owl"]{
+header .bannerSlide .owl-nav > button[class*="owl"] {
     position: absolute;
     text-align: center;
     font-size: 60px;
@@ -156,11 +156,11 @@ header .bannerSlide .owl-nav > button[class*="owl"]{
     outline: none;
 }
 
-header .bannerSlide .owl-nav button.owl-prev{
+header .bannerSlide .owl-nav button.owl-prev {
     left: 50px;
 }
 
-header .bannerSlide .owl-nav button.owl-next{
+header .bannerSlide .owl-nav button.owl-next {
     right: 50px;
 }
 
@@ -262,7 +262,6 @@ header .right {
     float: right;
     width: 33.333%;
 }
-
 
 .uniteItem span:nth-child(1) {
     font-size: 17px;
@@ -734,7 +733,6 @@ header .tit:hover {
     text-align: center;
 }
 
-
 .statistic span {
     font-size: 17px;
     line-height: 100px;
@@ -1115,7 +1113,7 @@ header .tit:hover {
     padding: 0 250px;
 }
 
-.item{
+.item {
     display: block;
 }
 
@@ -1251,8 +1249,8 @@ header .tit:hover {
 }
 
 .newsPicText1 {
-     padding-top: 30px;
- }
+    padding-top: 30px;
+}
 
 .newsPicText2 {
     padding-top: 30px;
@@ -1264,7 +1262,8 @@ header .tit:hover {
 
 .titleNews {
     padding-top: 50px;
-    text-align: center;
+    text-align: left;
+    width: 100%;
 }
 
 .news .titleNews span:nth-child(1) {
@@ -1555,7 +1554,6 @@ input[type="text"] {
     border: 1px solid #b3c3cf;
 }
 
-
 .CheckBox span {
     font-size: 15px;
     line-height: 40px;
@@ -1589,7 +1587,7 @@ label {
     color: #66aaf5;
 }
 
-.formReg input{
+.formReg input {
     display: block;
 }
 
@@ -1597,11 +1595,11 @@ label {
     display: block;
 }
 
-.UniteForm div{
+.UniteForm div {
     display: inline-block;
 }
 
-.mes textarea{
+.mes textarea {
     display: block;
     width: 1150px;
 }
@@ -1638,6 +1636,17 @@ label {
     .container {
         width: 980px;
     }
+
+    header .left, header .logo, header .right {
+
+        display: table-cell;
+        width: 33.3333%;
+        vertical-align: top;
+        margin-left: -300px;
+        margin-top: 88px;
+
+    }
+
     header .emails [class*="icon"] {
         font-size: 20px;
     }
@@ -1662,7 +1671,6 @@ label {
         width: 135px;
         padding-top: 20px;
         padding-left: 295px;
-
     }
 
     .invisLink > a {
@@ -1704,7 +1712,7 @@ label {
         height: 50px;
         padding-top: 10px;
         padding-bottom: 20px;
-        margin-left: 180px;
+        margin-left: 90px;
         text-decoration: none;
     }
 
@@ -1844,7 +1852,6 @@ label {
         width: 33.333%;
     }
 
-
     .uniteItem span:nth-child(1) {
         font-size: 17px;
         line-height: 30px;
@@ -1949,20 +1956,19 @@ label {
     }
 
     .menu {
-        padding-left: 650px;
+        padding-left: 20px;
         text-transform: uppercase;
     }
 
     .menu li {
         display: inline-block;
         font-size: 15px;
-        line-height: 30px;
         margin-top: 40px;
         margin-bottom: 35px;
     }
 
     .logo {
-        width: 1300px;
+        width: 200px;
         height: 670px;
         background-repeat: no-repeat;
         -webkit-background-size: cover;
@@ -2093,8 +2099,9 @@ label {
         margin-top: 100px;
     }
 
-    .banner {
+    .banner img {
         height: 400px;
+        display: none;
     }
 
     .banner .Affilate {
@@ -2119,7 +2126,7 @@ label {
         font-size: 17px;
         line-height: 30px;
         color: #ffffff;
-        padding-left: 230px;
+        padding-left: 20px;
         padding-top: 90px;
     }
 
@@ -2127,7 +2134,7 @@ label {
         font-size: 70px;
         line-height: 30px;
         color: #61acff;
-        padding-left: 230px;
+        padding-left: 50px;
         padding-top: 40px;
     }
 
@@ -2151,13 +2158,13 @@ label {
     }
 
     .titBan {
-        padding-left: 400px;
+        padding-left: 100px;
         padding-top: 60px;
     }
 
     .infoContent {
         position: absolute;
-        padding-left: 700px;
+        padding-left: 250px;
         margin-top: -400px;
     }
 
@@ -2166,6 +2173,7 @@ label {
         float: right;
         margin-right: 150px;
         margin-top: -360px;
+        display: none;
     }
 
     .titleHFour {
@@ -2231,7 +2239,7 @@ label {
         font-size: 17px;
         line-height: 70px;
         color: #ffffff;
-        padding-left: 380px;
+        padding-left: 100px;
         font-weight: 400;
         padding-top: 100px;
     }
@@ -2240,19 +2248,19 @@ label {
         font-size: 50px;
         line-height: 70px;
         color: #ffffff;
-        padding-left: 380px;
+        padding-left: 100px;
     }
 
     .p {
         font-size: 17px;
         line-height: 30px;
         color: #ffffff;
-        padding-left: 380px;
+        padding-left: 100px;
         padding-top: 100px;
     }
 
     .infoTwo p {
-        padding-left: 450px;
+        padding-left: 180px;
         margin-top: -40px;
     }
 
@@ -2263,7 +2271,7 @@ label {
     }
 
     .infoTwo img {
-        padding-left: 380px;
+        padding-left: 100px;
         margin-top: 10px;
     }
 
@@ -2316,7 +2324,6 @@ label {
         text-align: center;
     }
 
-
     .statistic span {
         font-size: 17px;
         line-height: 100px;
@@ -2349,6 +2356,7 @@ label {
         height: 652px;
         padding: 0 15px;
         float: left;
+        display: none;
     }
 
     .report {
@@ -2426,7 +2434,7 @@ label {
     }
 
     .linePic {
-        text-align: center;
+        text-align: left;
         margin-top: 50px;
         padding: 0 0px;
     }
@@ -2441,7 +2449,7 @@ label {
     .first {
         display: block;
         float: left;
-        width: 33.33%;
+        width: 100%;
         height: 625px;
     }
 
@@ -2453,7 +2461,7 @@ label {
 
     .priceB {
         float: right;
-        width: 33.33%;
+        width: 100%;
         height: 625px;
     }
 
@@ -2461,7 +2469,7 @@ label {
         font-size: 17px;
         line-height: 70px;
         color: #263441;
-        text-align: center;
+        display: none;
     }
 
     .tHOnes {
@@ -2469,7 +2477,7 @@ label {
         line-height: 50px;
         color: #263441;
         text-transform: uppercase;
-        text-align: center;
+        display: none;
     }
 
     .W img {
@@ -2697,13 +2705,13 @@ label {
         padding: 0 250px;
     }
 
-    .item{
+    .item {
         display: block;
     }
 
     .unitePicFace span {
         display: block;
-        text-align: center;
+
     }
 
     .unitePicFace span:nth-child(1) {
@@ -2753,474 +2761,496 @@ label {
         padding-left: 320px;
     }
 
-    .item .pictureFace1 {
-        width: 80px;
-        height: 80px;
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        margin: 0 auto;
-    }
-
-    .item .pictureFace2 {
-        width: 80px;
-        height: 80px;
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        margin: 0 auto;
-    }
-
-    .item .pictureFace1 span:nth-child(1) {
-        font-size: 17px;
-        line-height: 30px;
-        text-transform: uppercase;
-        position: relative;
-        padding-top: 10px;
-    }
-
-    .item .pictureFace1 span:nth-child(3) {
-        font-size: 17px;
-        line-height: 30px;
-        text-transform: uppercase;
-        position: relative;
-        padding-top: 10px;
-    }
-
-    .item .pictureFace1 span:nth-child(2) {
-        font-size: 17px;
-        line-height: 30px;
-        color: #589ae3;
-        padding-top: 10px;
-    }
-
-    .item .pictureFace1 span:nth-child(4) {
-        font-size: 17px;
-        line-height: 30px;
-        color: #589ae3;
-        padding-top: 10px;
-    }
-
-    .news {
-        width: 980px;
-        height: 950px;
-    }
-
-    .newsImage {
-        width: 100%;
-        padding-bottom: 100px;
-        margin-top: 125px;
-        padding-left: 350px;
-        padding-right: 370px;
-    }
-
-    .newsPic1 {
-        width: 33.333%;
+    .unitePicFace .item {
         float: left;
-        height: 570px;
-    }
-
-    .newsPic2 {
-        width: 33.333%;
-        float: left;
-    }
-
-    .newsPic3 {
-        width: 33.333%;
-        float: left;
-    }
-
-    .newsPicText1 {
-        padding-top: 30px;
-    }
-
-    .newsPicText2 {
-        padding-top: 30px;
-    }
-
-    .newsPicText3 {
-        padding-top: 30px;
-    }
-
-    .titleNews {
-        padding-top: 50px;
-        text-align: center;
-    }
-
-    .news .titleNews span:nth-child(1) {
-        font-size: 17px;
-        line-height: 70px;
-        color: #263441;
-        margin-top: 400px;
-        text-transform: uppercase;
-    }
-
-    .news .titleNews span:nth-child(2) {
-        font-size: 36px;
-        line-height: 50px;
-        color: #263441;
-        font-weight: 600;
-        text-transform: uppercase;
-    }
-
-    .news .newsImage span {
-        font-size: 15px;
-        line-height: 22px;
-        color: #589ae3;
-    }
-
-    .newsImage h1 {
-        font-size: 17px;
-        line-height: 30px;
-        color: #3c3950;
-        text-transform: uppercase;
-        padding-top: 35px;
-    }
-
-    .newsImage p {
-        font-size: 15px;
-        line-height: 24px;
-        color: #778b9d;
-        padding-top: 40px;
-    }
-
-    .icon-calend {
-        height: 10px;
-        width: 15px;
-    }
-
-    .comments {
-        height: 675px;
-        width: 100%;
-        margin-bottom: -280px;
-    }
-
-    .partner {
-        text-align: center;
-        height: 50px;
-        padding-top: 50px;
-    }
-
-    .payments {
-        text-align: center;
-        height: 50px;
-        padding-top: 50px;
-    }
-
-    .fonRegister {
-        height: 840px;
-        margin-top: -100px;
-    }
-
-    .formReg {
-        vertical-align: center;
-        width: 100%;
-        display: table;
-        float: left;
-        margin-left: 160px;
-    }
-
-    .FullN,
-    .paSword {
-        width: 33.333%;
-        float: left;
-    }
-
-    .Invited {
-        width: 33.333%;
-        float: right;
-    }
-
-    .CheckBox {
-        margin-top: 60px;
-        text-align: center;
-        margin-left: 60px;
-    }
-
-    .contentReg h1 {
-        text-transform: uppercase;
-        font-size: 70px;
-        line-height: 90px;
-        color: #ffffff;
-        font-weight: 600;
-        text-align: center;
-        padding-top: 135px;
-        padding-bottom: 100px;
-        padding-left: 160px;
-    }
-
-    .but {
-        font-size: 17px;
-        line-height: 30px;
-        color: #ffffff;
-        background: none;
-        border: 3px solid #589ae3;
-        text-transform: uppercase;
-        margin-left: 775px;
-        width: 360px;
-        height: 45px;
-        margin-top: 100px;
-    }
-
-    .but:hover {
-        color: #66aaf5;
-    }
-
-    .bannerCont p {
-        font-size: 70px;
-        line-height: 90px;
-        color: #ffffff;
-        text-transform: uppercase;
-        font-weight: 600;
-        padding-top: 110px;
-    }
-
-    .bannerCont {
-        height: 305px;
-        padding-left: 760px;
-    }
-
-    footer a:hover {
-        color: #66aaf5;
-    }
-
-    footer .container {
-        width: 1200px;
-    }
-
-    footer .footerMenu {
-        display: table;
-        width: 100%;
-        float: left;
-    }
-
-    .footerMenu .leftFoot {
         display: block;
-        width: 44%;
-        float: left;
-        padding-right: 90px;
-        padding-top: 90px;
-        padding-bottom: 90px;
-
+        margin-top: -200px;
+        margin-left: -172px;
+        padding-right: 0px;
     }
+}
 
-    .footerMenu .menuFoot {
-        display: block;
-        width: 32%;
-        float: left;
+.item .pictureFace1 {
+    width: 80px;
+    height: 80px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
 
-    }
+.item .pictureFace2 {
+    width: 80px;
+    height: 80px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
 
-    .menuFoot {
-        display: table;
-        width: 100%;
-        float: left;
-    }
+.item .pictureFace1 span:nth-child(1) {
+    font-size: 17px;
+    line-height: 30px;
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 10px;
+}
 
-    .menuFoot .footLic {
-        display: block;
-        width: 35%;
-        float: left;
-        padding-top: 120px;
-        padding-bottom: 90px;
-    }
+.item .pictureFace1 span:nth-child(3) {
+    font-size: 17px;
+    line-height: 30px;
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 10px;
+}
 
-    .menuFoot .footLic .tCell {
-        width: 120px;
-        height: 190px;
-        padding-bottom: 10px;
-    }
+.item .pictureFace1 span:nth-child(2) {
+    font-size: 17px;
+    line-height: 30px;
+    color: #589ae3;
+    padding-top: 10px;
+}
 
-    .menuFoot .licAddress {
-        display: block;
-        width: 65%;
-        float: left;
-    }
+.item .pictureFace1 span:nth-child(4) {
+    font-size: 17px;
+    line-height: 30px;
+    color: #589ae3;
+    padding-top: 10px;
+}
 
-    .licAddress p {
-        margin-top: 50px;
-    }
+.news {
+    width: 980px;
+    height: 2380px;
+}
 
-    .licAddress {
-        padding-top: 40px;
-        padding-left: 40px;
-    }
+.newsImage {
+    width: 100%;
+    padding-bottom: 100px;
+    margin-top: 125px;
+    padding-left: 232px;
+    padding-right: 370px;
+}
 
-    .footerMenu .rightFoot {
-        display: block;
-        width: 24%;
-        float: right;
-        padding-left: 70px;
-        padding-top: 90px;
-    }
+.newsPic1 {
+    width: 100%;
+    float: left;
+    height: 700px;
+}
 
-    footer .leftFoot span {
-        width: 15px;
-        line-height: 33px;
-        color: #589ae3;
-    }
+.newsPic2 {
+    width: 100%;
+    float: left;
+}
 
-    footer .leftFoot p {
-        margin-top: 20px;
-        font-size: 15px;
-        line-height: 33px;
-        color: #ffffff;
-    }
+.newsPic3 {
+    width: 100%;
+    float: left;
+}
 
-    .labelFoot {
-        margin-bottom: 35px;
-    }
+.newsPicText1 {
+    padding-top: 30px;
+    width: 100%;
+}
 
-    .telephoneFoot {
-        margin-top: 10px;
-        margin-bottom: 65px;
-    }
+.newsPicText2 {
+    padding-top: 30px;
+    width: 100%;
+}
 
-    footer .menuFoot a {
-        font-weight: 600;
-    }
+.newsPicText3 {
+    padding-top: 30px;
+    width: 100%;
+}
 
-    .menuFoot span {
-        font-size: 15px;
-        line-height: 33px;
-        color: #589ae3;
-        font-weight: 500;
-    }
+.titleNews {
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+}
 
-    .menuFoot p {
-        font-size: 15px;
-        line-height: 33px;
-        color: #ffffff;
-    }
+.news .titleNews span:nth-child(1) {
+    font-size: 17px;
+    line-height: 70px;
+    color: #263441;
+    margin-top: 400px;
+    text-transform: uppercase;
+}
 
-    .rightFoot span {
-        font-size: 15px;
-        line-height: 33px;
-        color: #589ae3;
-        font-weight: 500;
-    }
+.news .titleNews span:nth-child(2) {
+    font-size: 36px;
+    line-height: 50px;
+    color: #263441;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
-    footer a {
-        color: #ffffff;
-    }
+.news .newsImage span {
+    font-size: 15px;
+    line-height: 22px;
+    color: #589ae3;
+}
 
-    textarea[name="message"] {
-        width: 1340px;
-        height: 180px;
-    }
+.newsImage h1 {
+    font-size: 17px;
+    line-height: 30px;
+    color: #3c3950;
+    text-transform: uppercase;
+    padding-top: 35px;
+}
 
-    .formReg input[type="text"],
-    .formReg input[type="text"], input[type="text"] {
-        height: 50px;
-        width: 360px;
-        margin-left: 30px;
-        margin-bottom: 45px;
-        background: #3a3c47;
-        border: 2px solid #3a3c47;
-    }
+.newsImage p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #778b9d;
+    padding-top: 40px;
+}
 
-    .formReg label {
-        padding-left: 30px;
-        font-size: 15px;
-        font-weight: 500;
-        color: #ffffff;
-    }
+.icon-calend {
+    height: 10px;
+    width: 15px;
+}
 
-    input[type="text"] {
-        height: 50px;
-        width: 360px;
-        margin-left: 30px;
-        margin-bottom: 45px;
-        background: #ffffff;
-        border: 1px solid #b3c3cf;
-    }
+.comments {
+    height: 675px;
+    width: 100%;
+    margin-bottom: -280px;
+}
 
+.partner img {
+    width: 100%;
+}
 
-    .CheckBox span {
-        font-size: 15px;
-        line-height: 40px;
-        color: #ffffff;
-    }
+.payments {
+    text-align: center;
+    height: 50px;
+    padding-top: 50px;
+}
 
-    .CheckBox input {
-        width: 20px;
-        height: 20px;
-        background: #3a3c47;
-    }
+.fonRegister {
+    height: 840px;
+    margin-top: -100px;
+}
 
-    label {
-        float: top;
-    }
+.formReg {
+    vertical-align: center;
+    width: 100%;
+    display: table;
+    float: left;
+    margin-left: 160px;
+}
 
-    .clock {
-        display: inline-block;
-    }
+.FullN,
+.paSword {
+    width: 33.333%;
+    float: left;
+}
 
-    .date {
-        font-size: 15px;
-        line-height: 30px;
-        color: #9ca2a8;
-    }
+.Invited {
+    width: 33.333%;
+    float: right;
+}
 
-    .time {
-        font-size: 15px;
-        line-height: 30px;
-        font-weight: 600;
-        color: #66aaf5;
-    }
+.CheckBox {
+    margin-top: 60px;
+    text-align: center;
+    margin-left: 60px;
+}
 
-    .formReg input{
-        display: block;
-    }
+.contentReg h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 90px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 100px;
+    padding-left: 160px;
+}
 
-    .formContacts input {
-        display: block;
-    }
+.but {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+    background: none;
+    border: 3px solid #589ae3;
+    text-transform: uppercase;
+    margin-left: 775px;
+    width: 360px;
+    height: 45px;
+    margin-top: 100px;
+}
 
-    .UniteForm div{
-        display: inline-block;
-    }
+.but:hover {
+    color: #66aaf5;
+}
 
-    .mes textarea{
-        display: block;
-        width: 1150px;
-    }
+.bannerCont p {
+    font-size: 70px;
+    line-height: 90px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 110px;
+}
 
-    .up:hover {
-        color: #2d5683;
-    }
+.bannerCont {
+    height: 305px;
+    padding-left: 760px;
+}
 
-    .up {
-        position: fixed;
-        left: 50px;
-        bottom: 50px;
-        border-radius: 20%;
-        font-size: 17px;
-        line-height: 30px;
-        color: #589ae3;
-        background: none;
-        border: 3px solid #589ae3;
-        text-transform: uppercase;
-        width: 170px;
-        height: 58px;
-        margin-top: 50px;
-        margin-left: 50px;
-        text-decoration: none;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        -ms-transition: all 0.3s;
-        -o-transition: all 0.3s;
-        transition: all 0.3s;
-        outline: none;
-    }
+footer a:hover {
+    color: #66aaf5;
+}
+
+footer .container {
+    width: 1200px;
+}
+
+footer .footerMenu {
+    display: table;
+    width: 100%;
+    float: left;
+}
+
+.footerMenu .leftFoot {
+    display: block;
+    width: 300px;
+    float: left;
+    padding-right: 30px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+}
+
+.footerMenu .menuFoot {
+    display: block;
+    width: 32%;
+    float: left;
+
+}
+
+.menuFoot {
+    display: table;
+    width: 100%;
+    float: left;
+}
+
+.menuFoot .footLic {
+    display: block;
+    width: 35%;
+    float: left;
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+
+.menuFoot .footLic .tCell {
+    width: 120px;
+    height: 190px;
+    padding-bottom: 10px;
+}
+
+.menuFoot .licAddress {
+    display: block;
+    width: 65%;
+    float: left;
+}
+
+.licAddress p {
+    margin-top: 50px;
+}
+
+.licAddress {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.footerMenu .rightFoot {
+    display: block;
+    width: 24%;
+    float: left;
+    padding-left: 10px;
+    padding-top: 90px;
+}
+
+footer .leftFoot span {
+    width: 15px;
+    line-height: 33px;
+    color: #589ae3;
+}
+
+footer .leftFoot p {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 33px;
+    color: #ffffff;
+}
+
+.labelFoot {
+    margin-bottom: 35px;
+}
+
+.telephoneFoot {
+    margin-top: 10px;
+    margin-bottom: 65px;
+}
+
+footer .menuFoot a {
+    font-weight: 600;
+}
+
+.menuFoot span {
+    font-size: 15px;
+    line-height: 33px;
+    color: #589ae3;
+    font-weight: 500;
+}
+
+.menuFoot p {
+    font-size: 15px;
+    line-height: 33px;
+    color: #ffffff;
+}
+
+.rightFoot span {
+    font-size: 15px;
+    line-height: 33px;
+    color: #589ae3;
+    font-weight: 500;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+textarea[name="message"] {
+    width: 1340px;
+    height: 180px;
+}
+
+.formReg input[type="text"],
+.formReg input[type="text"], input[type="text"] {
+    height: 50px;
+    width: 360px;
+    margin-left: 30px;
+    margin-bottom: 45px;
+    background: #3a3c47;
+    border: 2px solid #3a3c47;
+}
+
+.formReg label {
+    padding-left: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+input[type="text"] {
+    height: 50px;
+    width: 360px;
+    margin-left: 30px;
+    margin-bottom: 45px;
+    background: #ffffff;
+    border: 1px solid #b3c3cf;
+}
+
+.CheckBox span {
+    font-size: 15px;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+.CheckBox input {
+    width: 20px;
+    height: 20px;
+    background: #3a3c47;
+}
+
+label {
+    float: top;
+}
+
+.clock {
+    display: inline-block;
+}
+
+.date {
+    font-size: 15px;
+    line-height: 30px;
+    color: #9ca2a8;
+}
+
+.time {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #66aaf5;
+}
+
+.formReg input {
+    display: block;
+}
+
+.formContacts input {
+    display: block;
+}
+
+.UniteForm div {
+    display: inline-block;
+}
+
+.mes textarea {
+    display: block;
+    width: 1150px;
+}
+
+.up:hover {
+    color: #2d5683;
+}
+
+.up {
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
+    border-radius: 20%;
+    font-size: 17px;
+    line-height: 30px;
+    color: #589ae3;
+    background: none;
+    border: 3px solid #589ae3;
+    text-transform: uppercase;
+    width: 170px;
+    height: 58px;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    outline: none;
+}
+
 }
 
 @media (max-width: 767px) {
     .container {
         width: 100%;
     }
+
+    header .left, header .logo, header .right {
+
+        display: table-cell;
+        width: 33.3333%;
+        vertical-align: top;
+        margin-left: -300px;
+        margin-top: 88px;
+
+    }
+
     header .emails [class*="icon"] {
         font-size: 20px;
     }
@@ -3245,7 +3275,6 @@ label {
         width: 135px;
         padding-top: 20px;
         padding-left: 295px;
-
     }
 
     .invisLink > a {
@@ -3283,11 +3312,11 @@ label {
     }
 
     header .fonHeader {
-        width: 100%;
+        width: 980px;
         height: 50px;
         padding-top: 10px;
         padding-bottom: 20px;
-        margin-left: 680px;
+        margin-left: 90px;
         text-decoration: none;
     }
 
@@ -3427,7 +3456,6 @@ label {
         width: 33.333%;
     }
 
-
     .uniteItem span:nth-child(1) {
         font-size: 17px;
         line-height: 30px;
@@ -3532,20 +3560,19 @@ label {
     }
 
     .menu {
-        padding-left: 650px;
+        padding-left: 20px;
         text-transform: uppercase;
     }
 
     .menu li {
         display: inline-block;
         font-size: 15px;
-        line-height: 30px;
         margin-top: 40px;
         margin-bottom: 35px;
     }
 
     .logo {
-        width: 1300px;
+        width: 200px;
         height: 670px;
         background-repeat: no-repeat;
         -webkit-background-size: cover;
@@ -3676,8 +3703,9 @@ label {
         margin-top: 100px;
     }
 
-    .banner {
+    .banner img {
         height: 400px;
+        display: none;
     }
 
     .banner .Affilate {
@@ -3702,7 +3730,7 @@ label {
         font-size: 17px;
         line-height: 30px;
         color: #ffffff;
-        padding-left: 230px;
+        padding-left: 20px;
         padding-top: 90px;
     }
 
@@ -3710,7 +3738,7 @@ label {
         font-size: 70px;
         line-height: 30px;
         color: #61acff;
-        padding-left: 230px;
+        padding-left: 50px;
         padding-top: 40px;
     }
 
@@ -3734,13 +3762,13 @@ label {
     }
 
     .titBan {
-        padding-left: 400px;
+        padding-left: 100px;
         padding-top: 60px;
     }
 
     .infoContent {
         position: absolute;
-        padding-left: 700px;
+        padding-left: 250px;
         margin-top: -400px;
     }
 
@@ -3749,6 +3777,7 @@ label {
         float: right;
         margin-right: 150px;
         margin-top: -360px;
+        display: none;
     }
 
     .titleHFour {
@@ -3814,7 +3843,7 @@ label {
         font-size: 17px;
         line-height: 70px;
         color: #ffffff;
-        padding-left: 380px;
+        padding-left: 100px;
         font-weight: 400;
         padding-top: 100px;
     }
@@ -3823,19 +3852,19 @@ label {
         font-size: 50px;
         line-height: 70px;
         color: #ffffff;
-        padding-left: 380px;
+        padding-left: 100px;
     }
 
     .p {
         font-size: 17px;
         line-height: 30px;
         color: #ffffff;
-        padding-left: 380px;
+        padding-left: 100px;
         padding-top: 100px;
     }
 
     .infoTwo p {
-        padding-left: 450px;
+        padding-left: 180px;
         margin-top: -40px;
     }
 
@@ -3846,7 +3875,7 @@ label {
     }
 
     .infoTwo img {
-        padding-left: 380px;
+        padding-left: 100px;
         margin-top: 10px;
     }
 
@@ -3869,6 +3898,7 @@ label {
         width: 100%;
         height: 320px;
         margin: 0;
+        display: none;
     }
 
     .statUnder {
@@ -3897,7 +3927,6 @@ label {
         padding: 0 200px;
         text-align: center;
     }
-
 
     .statistic span {
         font-size: 17px;
@@ -3931,6 +3960,7 @@ label {
         height: 652px;
         padding: 0 15px;
         float: left;
+        display: none;
     }
 
     .report {
@@ -4023,7 +4053,7 @@ label {
     .first {
         display: block;
         float: left;
-        width: 33.33%;
+        width: 100%;
         height: 625px;
     }
 
@@ -4035,7 +4065,7 @@ label {
 
     .priceB {
         float: right;
-        width: 33.33%;
+        width: 100%;
         height: 625px;
     }
 
@@ -4043,7 +4073,7 @@ label {
         font-size: 17px;
         line-height: 70px;
         color: #263441;
-        text-align: center;
+        display: none;
     }
 
     .tHOnes {
@@ -4051,7 +4081,7 @@ label {
         line-height: 50px;
         color: #263441;
         text-transform: uppercase;
-        text-align: center;
+        display: none;
     }
 
     .W img {
@@ -4279,13 +4309,13 @@ label {
         padding: 0 250px;
     }
 
-    .item{
+    .item {
         display: block;
     }
 
     .unitePicFace span {
         display: block;
-        text-align: center;
+
     }
 
     .unitePicFace span:nth-child(1) {
@@ -4333,6 +4363,14 @@ label {
         width: 100%;
         padding-bottom: 150px;
         padding-left: 320px;
+    }
+
+    .unitePicFace .item {
+        float: left;
+        display: block;
+        margin-top: -200px;
+        margin-left: -172px;
+        padding-right: 0px;
     }
 
     .item .pictureFace1 {
@@ -4386,8 +4424,8 @@ label {
     }
 
     .news {
-        width: 100%;
-        height: 950px;
+        width: 980px;
+        height: 2380px;
     }
 
     .newsImage {
@@ -4399,36 +4437,40 @@ label {
     }
 
     .newsPic1 {
-        width: 33.333%;
+        width: 100%;
         float: left;
-        height: 570px;
+        height: 700px;
     }
 
     .newsPic2 {
-        width: 33.333%;
+        width: 100%;
         float: left;
     }
 
     .newsPic3 {
-        width: 33.333%;
+        width: 100%;
         float: left;
     }
 
     .newsPicText1 {
         padding-top: 30px;
+        width: 100%;
     }
 
     .newsPicText2 {
         padding-top: 30px;
+        width: 100%;
     }
 
     .newsPicText3 {
         padding-top: 30px;
+        width: 100%;
     }
 
     .titleNews {
         padding-top: 50px;
         text-align: center;
+        width: 100%;
     }
 
     .news .titleNews span:nth-child(1) {
@@ -4479,10 +4521,8 @@ label {
         margin-bottom: -280px;
     }
 
-    .partner {
-        text-align: center;
-        height: 50px;
-        padding-top: 50px;
+    .partner img {
+        width: 100%;
     }
 
     .payments {
@@ -4569,7 +4609,7 @@ label {
     }
 
     footer .container {
-        width: 100%;
+        width: 1200px;
     }
 
     footer .footerMenu {
@@ -4580,9 +4620,9 @@ label {
 
     .footerMenu .leftFoot {
         display: block;
-        width: 44%;
+        width: 300px;
         float: left;
-        padding-right: 90px;
+        padding-right: 30px;
         padding-top: 90px;
         padding-bottom: 90px;
 
@@ -4632,10 +4672,10 @@ label {
 
     .footerMenu .rightFoot {
         display: block;
-        width: 24%;
-        float: right;
-        padding-left: 70px;
-        padding-top: 90px;
+        width: 43%;
+        float: left;
+        padding-left: 10px;
+        padding-top: 10px;
     }
 
     footer .leftFoot span {
@@ -4719,7 +4759,6 @@ label {
         border: 1px solid #b3c3cf;
     }
 
-
     .CheckBox span {
         font-size: 15px;
         line-height: 40px;
@@ -4753,7 +4792,7 @@ label {
         color: #66aaf5;
     }
 
-    .formReg input{
+    .formReg input {
         display: block;
     }
 
@@ -4761,11 +4800,11 @@ label {
         display: block;
     }
 
-    .UniteForm div{
+    .UniteForm div {
         display: inline-block;
     }
 
-    .mes textarea{
+    .mes textarea {
         display: block;
         width: 1150px;
     }
@@ -4797,11 +4836,5 @@ label {
         transition: all 0.3s;
         outline: none;
     }
+
 }
-
-
-
-
-
-
-
